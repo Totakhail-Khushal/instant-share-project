@@ -4,8 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instant Share Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello hello </p>
+    <section class="container">
+        <div class="drop-zone">
+            <div class="icon-container">
+                <img src="./file.png" alt="file Icon" class="center" draggable="false">
+                <img src="./file.png" alt="file Icon" class="left" draggable="false">
+                <img src="./file.png" alt="file Icon" class="right" draggable="false">
+
+            </div>
+            <div class="title">
+            <input type="file" id="fileInput"/>
+            Drop your files here or,<span class="browseBtn">browse</button> </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
 </body>
 </html>
